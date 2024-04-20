@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  php-web-server:
-    image: php:7.4-apache
-    volumes:
-      - ./script.php:/var/www/html/script.php
-    ports:
-      - "8080:80"
